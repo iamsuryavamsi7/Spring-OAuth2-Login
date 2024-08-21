@@ -1,0 +1,14 @@
+# Configuration for Tomcat Server Embedded
+
+server:
+  port: 7777
+
+# Configuration for OAuth2 Client
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+         
